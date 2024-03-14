@@ -1,8 +1,8 @@
-import { useNavigate } from "react-router-dom";
+// import { useNavigate } from "react-router-dom";
 import styled from "styled-components";
-import { MdOutlineAccountCircle } from "react-icons/md";
+// import { MdOutlineAccountCircle } from "react-icons/md";
 
-import ButtonIcon from "./ButtonIcon";
+// import ButtonIcon from "./ButtonIcon";
 import Logout from "../features/authentication/Logout";
 import DarkModeToggle from "./DarkModeToggle";
 
@@ -12,15 +12,15 @@ const StyledHeaderMenu = styled.ul`
 `;
 
 function HeaderMenu() {
-  const navigate = useNavigate();
+  // const navigate = useNavigate();
 
   return (
     <StyledHeaderMenu>
-      <li>
+      {/* <li>
         <ButtonIcon onClick={() => navigate("/account")}>
           <MdOutlineAccountCircle />
         </ButtonIcon>
-      </li>
+      </li> */}
       <li>
         <DarkModeToggle />
       </li>
